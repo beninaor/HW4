@@ -1,0 +1,27 @@
+.post-container {
+    position: relative;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
+    min-height: 40%;
+}
+
+.post-title {
+    margin: 5px;
+}
+
+.post-content {
+    margin: 5px;
+    margin-bottom: 70px;
+    padding-right: 100px;
+
+}
+.post-image {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.post-footer {
+    margin: 5px;
+}

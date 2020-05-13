@@ -1,0 +1,22 @@
+.header{
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.main{
+    display: flex;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    padding-left: 10px;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    flex-basis: 20%;
+
+}
