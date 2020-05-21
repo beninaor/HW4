@@ -1,0 +1,17 @@
+.home-main{
+    display: flex;
+}
+.home-Section{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    padding-left: 10px;
+}
+
+.home-sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    flex-basis: 20%;
+
+}

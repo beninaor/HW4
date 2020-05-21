@@ -1,7 +1,10 @@
-.links {
+.header-links {
     display: flex;
     justify-content: space-between;
 }
-.login{
+.header-link{
+    padding: 1px;
+}
+.header-link-login{
     float: right;
 }

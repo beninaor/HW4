@@ -1,28 +1,25 @@
 import React from "react";
-import "../Stylies/Header.css"
+import "../Stylies/Header.css";
+import {Link} from "react-router-dom";
 
-function Header() {
-    return(
+function Header(props) {
+    return (
         <header>
-            <div className="links">
+            <div className="header-links">
                 <div>
-                    <a href="">Home | </a>
-                    <a href="">About Me |</a>
-                    <a href="">Concat</a>
+                    <span className="header-link"> </span>
+                    <Link to="/"> Home </Link>
+                    <span className="header-link"> | </span>
+                    <Link to="/AboutMe"> About Me </Link>
+                    <span className="header-link"> | </span>
+                    <Link to="/newPost"> New Post </Link>
                 </div>
-                <a href="" className="login">LogIn</a>
+                <Link to="/Login" className="header-link-login">Login </Link>
             </div>
         </header>
     );
 }
 export default Header;
-
-
-
-
-
-
-
 
 
 

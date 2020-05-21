@@ -1,0 +1,15 @@
+.title {
+    padding-right: 150px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+.text {
+
+    padding-right: 200px;
+    padding-bottom: 150px;
+    margin: 5px;
+}
+.button {
+    padding: 10px;
+    margin-left: 100px;
+}
