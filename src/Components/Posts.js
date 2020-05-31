@@ -23,7 +23,7 @@ var posts = [
         author: 'Beni Naor',
         image: 'https://via.placeholder.com/90'
     },
-    
+
 ];
 function Post(props) {
     return (
