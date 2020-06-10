@@ -3,6 +3,7 @@ import Posts from '../Components/Posts'
 
 
 
+
 function MainSection() {
     return (
         <section className="myPosts">

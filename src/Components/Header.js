@@ -15,6 +15,8 @@ function Header(props) {
                     <Link to="/newPost"> New Post </Link>
                 </div>
                 <Link to="/Login" className="header-link-login">Login </Link>
+                <Link to="/signup" className="header-link-login">signup </Link>
+
             </div>
         </header>
     );
